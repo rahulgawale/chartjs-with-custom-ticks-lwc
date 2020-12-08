@@ -1,0 +1,124 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/chart": [
+                "chart/chart.js"
+            ],
+            "c/chartExample": [
+                "chartExample/chartExample.js"
+            ],
+            "c/copyToClipboardExample": [
+                "copyToClipboardExample/copyToClipboardExample.js"
+            ],
+            "c/createRecordExample": [
+                "createRecordExample/createRecordExample.js"
+            ],
+            "c/customLookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/customPathInnerLwc": [
+                "customPathInnerLwc/customPathInnerLwc.js"
+            ],
+            "c/customPathLwc": [
+                "customPathLwc/customPathLwc.js"
+            ],
+            "c/dottedList": [
+                "dottedList/dottedList.js"
+            ],
+            "c/dualListBoxDemo": [
+                "dualListBoxDemo/dualListBoxDemo.js"
+            ],
+            "c/fIeldDescribeDemo": [
+                "fIeldDescribeDemo/fIeldDescribeDemo.js"
+            ],
+            "c/formExample": [
+                "formExample/formExample.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/lookup": [
+                "lookup/lookup.js"
+            ],
+            "c/lwcGetpicklistDemo": [
+                "lwcGetpicklistDemo/lwcGetpicklistDemo.js"
+            ],
+            "c/modal": [
+                "modal/modal.js"
+            ],
+            "c/modalExample": [
+                "modalExample/modalExample.js"
+            ],
+            "c/onFocusOnLightningInputField": [
+                "onFocusOnLightningInputField/onFocusOnLightningInputField.js"
+            ],
+            "c/opportunityBarChart": [
+                "opportunityBarChart/opportunityBarChart.js"
+            ],
+            "c/picklistValuesDemo": [
+                "picklistValuesDemo/picklistValuesDemo.js"
+            ],
+            "c/pieChart": [
+                "pieChart/pieChart.js"
+            ],
+            "c/quickActionDemoLwc": [
+                "quickActionDemoLwc/quickActionDemoLwc.js"
+            ],
+            "c/recordEditFormExample": [
+                "recordEditFormExample/recordEditFormExample.js"
+            ],
+            "c/recordFormDemo": [
+                "recordFormDemo/recordFormDemo.js"
+            ],
+            "c/recordList": [
+                "recordList/recordList.js"
+            ],
+            "c/relatedRecordsExample": [
+                "relatedRecordsExample/relatedRecordsExample.js"
+            ],
+            "c/sampleLookupContainer": [
+                "sampleLookupContainer/sampleLookupContainer.js"
+            ],
+            "c/searchComponent": [
+                "searchComponent/searchComponent.js"
+            ],
+            "c/searchDemo": [
+                "searchDemo/searchDemo.js"
+            ],
+            "c/uiObjectInfoDemo": [
+                "uiObjectInfoDemo/uiObjectInfoDemo.js"
+            ],
+            "c/userBadgeLwc": [
+                "userBadgeLwc/userBadgeLwc.js"
+            ],
+            "c/vIdeoPlayer": [
+                "vIdeoPlayer/vIdeoPlayer.js"
+            ],
+            "c/leaflet": [
+                "../staticresources/leaflet/leaflet.js"
+            ],
+            "c/nouislider": [
+                "../staticresources/nouislider/nouislider.js"
+            ],
+            "c/designerFields": [
+                "designerFields/designerFields.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    "paths": {
+        "c/*": [
+            "*"
+        ]
+    }
+}
